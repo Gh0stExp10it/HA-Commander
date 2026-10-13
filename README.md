@@ -110,6 +110,29 @@ Open **Settings → Plugins → HA-Commander** in Flow Launcher:
 
 ## Changelog
 
+### [7.0.0](https://github.com/Gh0stExp10it/HA-Commander/compare/v6.0.0...v7.0.0) (2026-10-13)
+
+#### ⚠ BREAKING CHANGES
+
+* port the plugin to pyflowlauncher on Flow Launcher's python_v2 runtime
+
+#### Features
+
+* port the plugin to pyflowlauncher on Flow Launcher's python_v2 runtime ([d430dcc](https://github.com/Gh0stExp10it/HA-Commander/commit/d430dcc3284651b427020c5227ff35917c9a1a7a))
+* update icons to MDI 7.4.47 and Home Assistant's entity icons ([d430dcc](https://github.com/Gh0stExp10it/HA-Commander/commit/d430dcc3284651b427020c5227ff35917c9a1a7a))
+
+#### Bug Fixes
+
+* honour the Max results setting again ([d430dcc](https://github.com/Gh0stExp10it/HA-Commander/commit/d430dcc3284651b427020c5227ff35917c9a1a7a))
+* mediaplayer attribute error ([ad75ef4](https://github.com/Gh0stExp10it/HA-Commander/commit/ad75ef40421c35a47a4497d8a156c8f6afc4a032))
+* resolve custom mdi: entity icons ([d430dcc](https://github.com/Gh0stExp10it/HA-Commander/commit/d430dcc3284651b427020c5227ff35917c9a1a7a))
+* save hidden entities to the plugin settings ([d430dcc](https://github.com/Gh0stExp10it/HA-Commander/commit/d430dcc3284651b427020c5227ff35917c9a1a7a))
+
+#### Performance Improvements
+
+* reply to Flow Launcher before Home Assistant responds ([0b5504f](https://github.com/Gh0stExp10it/HA-Commander/commit/0b5504fdfc08b2a134eda5f0d16828d2a1ea1b63))
+* reply to Flow Launcher before Home Assistant responds ([7513391](https://github.com/Gh0stExp10it/HA-Commander/commit/75133914a82766256e0ac38af8b8f0debebf8eed))
+
 ### [6.0.0](https://github.com/Garulf/HA-Commander/compare/v5.2.1...v6.0.0) (2026-10-03)
 
 #### ⚠ BREAKING CHANGES
@@ -135,18 +158,5 @@ Open **Settings → Plugins → HA-Commander** in Flow Launcher:
 ### [5.2.1](https://github.com/Garulf/HA-Commander/releases/tag/v5.2.1) - 2025-01-09
 
 - fix: mediaplayer attribute error by @Gh0stExp10it in https://github.com/Garulf/HA-Commander/pull/68
-
-### [5.2.0](https://github.com/Garulf/HA-Commander/releases/tag/v5.2.0) - 2024-06-27
-
-- Update flox lib from 0.18.1 to 0.20.1 by @Garulf in https://github.com/Garulf/HA-Commander/pull/59
-- Fix select options by @Garulf in https://github.com/Garulf/HA-Commander/pull/62
-- Added button entity class by @Hobbit44 in https://github.com/Garulf/HA-Commander/pull/60
-- Handle lights with no effects attribute by @Garulf in https://github.com/Garulf/HA-Commander/pull/63
-
-#### Special Thanks
-
-I would like to thank the following for their contributions and support
-@robertoleonardo and @Hobbit44 and anyone who has reported bugs and helped.
-Thank you
 
 See [CHANGELOG.md](CHANGELOG.md) for the full history.
